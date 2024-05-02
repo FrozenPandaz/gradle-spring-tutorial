@@ -1,2 +1,7 @@
 .gradle
 .idea
+
+.nx/installation
+.nx/cache
+
+build
