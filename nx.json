@@ -1,7 +1,12 @@
 {
   "namedInputs": {
-    "default": ["{projectRoot}/**/*"],
-    "production": ["default", "!{projectRoot}/test/**/*"]
+    "default": [
+      "{projectRoot}/**/*"
+    ],
+    "production": [
+      "default",
+      "!{projectRoot}/test/**/*"
+    ]
   },
   "targetDefaults": {
     "build": {
@@ -35,5 +40,7 @@
         "buildTargetName": "build"
       }
     }
-  ]
+  ],
+  "nxCloudAccessToken": "NjQ4NjMxMDYtMTZiZS00NWJjLTk0NmItMDE3NWU0ODVjNWY2fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://staging.nx.app"
 }
